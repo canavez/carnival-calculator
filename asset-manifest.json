@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/carnival-calculator/static/css/main.fcdf927d.css",
+    "main.css": "/carnival-calculator/static/css/main.035fff19.css",
     "main.js": "/carnival-calculator/static/js/main.edd22d3c.js",
     "static/js/787.170be5d4.chunk.js": "/carnival-calculator/static/js/787.170be5d4.chunk.js",
     "index.html": "/carnival-calculator/index.html",
-    "main.fcdf927d.css.map": "/carnival-calculator/static/css/main.fcdf927d.css.map",
+    "main.035fff19.css.map": "/carnival-calculator/static/css/main.035fff19.css.map",
     "main.edd22d3c.js.map": "/carnival-calculator/static/js/main.edd22d3c.js.map",
     "787.170be5d4.chunk.js.map": "/carnival-calculator/static/js/787.170be5d4.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.fcdf927d.css",
+    "static/css/main.035fff19.css",
     "static/js/main.edd22d3c.js"
   ]
 }
