@@ -147,3 +147,9 @@ input {
 .btn-gohome {
     margin-top: 1em;
 }
+
+@media (max-width:760px) {
+    .main-container {
+        width: 80%;
+    }
+}
