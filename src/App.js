@@ -1,23 +1,43 @@
-import logo from './logo.svg';
 import './App.css';
 
+import { useState } from 'react';
+
+import Cadastro from './pages/Cadastro';
+import Home from './pages/Home';
+
+const stages = [
+  {id: 1, name: "home"},
+  {id: 2, name: "cadastro"},
+  {id: 3, name: "calcular"},
+  {id: 4, name: "lista"},
+]
+
 function App() {
+
+  const [gameStage, setGameStage] = useState(stages[0].name)
+  const goHome = () => {
+    setGameStage(stages[0].name)
+  }
+  const goCadastro = () => {
+    setGameStage(stages[1].name)
+  }
+  // const goCalcular = () => {
+  //   setGameStage(stages[2].name)
+  // }
+  // const goLista = () => {
+  //   setGameStage(stages[3].name)
+  // }
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {gameStage === 'home' && <Home
+        goCadastro={goCadastro}
+      />}
+      {gameStage === 'cadastro' && <Cadastro
+        goHome={goHome}
+      />}
+      {gameStage === 'calcular' && <Cadastro />}
+      {gameStage === 'lista' && <Cadastro />}
     </div>
   );
 }

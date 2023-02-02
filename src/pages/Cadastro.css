@@ -1,0 +1,149 @@
+.main-container {
+    border: 0.2em solid #F05D5E;
+    border-radius: 1em;
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    margin: 2em auto;
+    padding: 2em;
+}
+
+.valores-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    padding: 1.5em 1em;
+    border: 0.2em solid #F05D5E;
+    border-radius: 1em;
+}
+
+.aluguel-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 1em 0;
+}
+
+.compras-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 1em 0;
+}
+
+.valores-container .aluguel-container h4 {
+    font-size: 1.4em;
+    font-weight: 500;
+    margin-right: 0.5em;
+}
+
+.valores-container .compras-container h4 {
+    font-size: 1.4em;
+    font-weight: 500;
+    margin-right: 0.5em;
+}
+
+.valores-container input[type=number] {
+    background-color: #272932;
+    border: 0.1em solid #F05D5E;
+    border-radius: 1em;
+    padding: 0.5em;
+    font-size: 1.5em;
+    font-weight: 700;
+    width: 100%;
+    box-sizing: border-box;
+    color: #E7ECEF;
+}
+
+.valortotal-container {
+    background-color: #E7ECEF;
+    color: #272932;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    font-size: 1.2em;
+    font-weight: 500;
+    padding: 0.3em 0.7em;
+    border-radius: 0.3em;
+}
+
+.valortotal-container span {
+    color: #F05D5E;
+    font-size: 1.4em;
+}
+
+h1 {
+    margin: 0;
+}
+
+.adicionar-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    padding: 1.5em 1em;
+    border: 0.2em solid #F05D5E;
+    border-radius: 1em;
+    margin-top: 1em;
+}
+
+.adicionar-form-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    padding: 0;
+}
+
+.input-txt {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    padding: 0.5em;
+}
+
+.input-number {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    padding: 0.5em;
+}
+
+input {
+    background-color: #272932;
+    border: 0.1em solid #F05D5E;
+    border-radius: 1em;
+    padding: 0.5em;
+    font-size: 1.5em;
+    font-weight: 700;
+    width: 100%;
+    box-sizing: border-box;
+    color: #E7ECEF;
+}
+
+.adicionar-container h4 {
+    font-size: 1.4em;
+    font-weight: 500;
+    margin-right: 0;
+    text-align: center;
+}
+
+.adicionar-container button {
+    margin-top: 0.5em;
+}
+
+.btn-gohome {
+    margin-top: 1em;
+}

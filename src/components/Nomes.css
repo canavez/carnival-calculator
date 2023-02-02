@@ -1,0 +1,15 @@
+.nomes-main-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    padding: 1.5em 1em;
+    border: 0.2em solid #F05D5E;
+    border-radius: 1em;
+    margin-top: 1em;
+}
+
+.nome-container {
+    border: none;
+}

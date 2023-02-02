@@ -1,0 +1,14 @@
+.home-container {
+    border: 0.2em solid #F05D5E;
+    border-radius: 1em;
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    margin: 2em auto;
+    padding: 2em;
+}
+
+.home-container h1 {
+    line-height: 1em;
+    margin-bottom: 0.5em;
+}
